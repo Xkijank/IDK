@@ -1,0 +1,100 @@
+  body
+   {
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 15px;
+    background-color: white;    
+   }
+   a 
+   {
+    text-decoration: none;
+    color: white;
+   }
+
+ .game {
+    width: 600px;
+    height: 200px;
+    border: 5px solid wheat;
+    margin: auto;
+    padding: 5px; 
+  }
+  
+  #Logo
+  {
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;  
+    background-color: black;
+    padding: 10px; 
+    color: white;
+    border: 5px solid wheat;
+  }
+ 
+  #Stopa
+  {
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    color: white;    
+    background-color: black;
+    padding: 20px; 
+    border: 5px solid wheat;
+  }
+  
+  
+
+  #astra {
+    width: 60px;
+    height: 60px;
+    background-image: url(img/Astra.png);
+    background-size: 60px 60px;
+    position: relative;
+    top: 130px;
+  }
+
+  .jump {
+    animation: jump 0.3s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 150px;
+    }
+  
+    30% {
+      top: 130px;
+    }
+  
+    50% {
+      top: 80px;
+    }
+  
+    80% {
+      top: 130px;
+    }
+  
+    100% {
+      top: 150px;
+    }
+  }
+
+  #rocket {
+    width: 60px;
+    height: 30px;
+    position: relative;
+    top: 90px;
+    left: 580px;
+
+  
+    background-image: url("img/rocket.png");
+    background-size: 60px 30px;
+  
+    animation: block 1s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 580px;
+    }
+  
+    100% {
+      left: -60px;
+    }
+  }
